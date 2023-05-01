@@ -5,7 +5,7 @@ import "./style.css"
 
 const Project = ({title, img, index}) => {
     return ( 
-        <NavLink to={`/project/${index}`}>
+        <NavLink to={`/project/${index+1}`}>
             <li className="project">
                     
                     <img src={img} alt="Project img" className="project__img" />

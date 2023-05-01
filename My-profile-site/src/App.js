@@ -10,6 +10,8 @@ import './App.css'
 import Categories from "./pages/Categories";
 import About from "./pages/About";
 import Documents from "./pages/Documents";
+import ProjectCategory from "./components/project/ProjectCategory";
+import Category from "./pages/Category";
 
 function App() {
   return (
@@ -22,6 +24,7 @@ function App() {
             <Route path="/" element={<CombinedRender/>}/>
             <Route path="/project/:id" element={<Project />} />
             <Route path="/categories" element={<Categories/>}/>
+            <Route path="/category/:id" element={<Category/>}/>
             <Route path="/about" element={<About/>}/>
             <Route path="/documents" element={<Documents/>}/>
           </Routes>
