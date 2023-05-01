@@ -1,0 +1,82 @@
+
+.cardImg2{
+    max-width: 110px;
+    max-height: 100px;
+}
+
+
+
+@media screen and (min-width: 1650px) {
+    .contentt{
+        height: 28rem;
+        width: 100%;
+        background-color: rgb(236, 236, 236);
+        background-image: url('./banner.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-bottom: 2rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .itemsOfUnd{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+    
+    
+}
+
+@media screen and (max-width: 1650px) and (min-width: 800px) {
+    .contentt{
+        height: 28rem;
+        width: 100%;
+        background-color: rgb(236, 236, 236);
+        background-image: url('./banner-mini.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-bottom: 2rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .itemsOfUnd{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .contentt{
+        height: 28rem;
+        width: 100%;
+        background-color: rgb(236, 236, 236);
+        background-image: url('./banner-phone.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-bottom: 2rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .gridItem{
+        display: none;
+    }
+
+    .itemsOfUnd{
+        
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+}
+
+
+
