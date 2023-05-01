@@ -1,11 +1,3 @@
-https://portfolio-eta-nine-38.vercel.app/
-https://portfolio-eta-nine-38.vercel.app/
-https://portfolio-eta-nine-38.vercel.app/
-https://portfolio-eta-nine-38.vercel.app/
-https://portfolio-eta-nine-38.vercel.app/
-https://portfolio-eta-nine-38.vercel.app/
-
-
 
 # Getting Started with Create React App
 
