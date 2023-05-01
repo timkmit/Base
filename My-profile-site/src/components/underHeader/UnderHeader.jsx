@@ -2,9 +2,6 @@ import * as React from "react";
 import ButtonGroup from '@mui/material/ButtonGroup';
 import Button from "@mui/material/Button";
 import {BrowserRouter, Route, Routes, Link} from "react-router-dom"
-import Contacts from "../../pages/Contacts";
-import Documents from "../../pages/Documents";
-import Categories from "../../pages/Categories";
 import './style.css'
 
 const UnderHeader = () => {
@@ -24,7 +21,7 @@ const UnderHeader = () => {
             </Button>
         </Link>
 
-        <Link className="pagesLink" to="/items">
+        <Link className="pagesLink" to="/categories">
 
             <Button
                 className="pagesText"
@@ -37,7 +34,7 @@ const UnderHeader = () => {
             </Button>
         </Link>
 
-        <Link className="pagesLink" to="/doc">
+        <Link className="pagesLink" to="/documents">
             <Button
                 sx={{
                     my: 0.1,
@@ -63,15 +60,7 @@ const UnderHeader = () => {
 
     </ButtonGroup>
 
-    <Routes>
-
-        <Route path="/categories" element={<Categories/>}></Route>
-
-        <Route path="/documents" element={<Documents/>}></Route>
-
-        <Route path="/contacts" element={<Contacts/>}></Route>
-
-    </Routes>
+    
 
 </>
 
