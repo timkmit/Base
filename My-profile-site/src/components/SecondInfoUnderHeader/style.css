@@ -1,0 +1,90 @@
+
+.cardImg2{
+    max-width: 110px;
+    max-height: 100px;
+}
+
+
+
+@media screen and (min-width: 1650px) {
+    .wrapp{
+        
+        background-image: url('./banner.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 28rem;
+        width: 100%;
+        margin-bottom: 2rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .gridContent{
+        background-color: rgba(255, 255, 255, 0);
+      }
+    .textIn{
+        padding-left: 100px;
+    }
+
+    .itemsOfUnd{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+    
+    
+}
+
+@media screen and (max-width: 1650px) and (min-width: 800px) {
+    .wrapp{
+        
+        background-image: url('./banner-mini.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 28rem;
+        width: 100%;
+        margin-bottom: 2rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .gridContent{
+      background-color: rgba(255, 255, 255, 0);
+    }
+    .textIn{
+        padding-left: 70px;
+        font-size: 35px;
+    }
+
+    .itemsOfUnd{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .wrapp{
+        padding-top: 40px;
+        background-image: url('./banner-phone.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 28rem;
+        width: 100%;
+        margin-bottom: 2rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .gridContent2{
+        background-color: rgba(255, 255, 255, 0);
+        display: none;
+    }
+      
+}
+
+
+
