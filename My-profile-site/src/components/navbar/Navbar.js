@@ -21,9 +21,11 @@ const Navbar = () => {
     
                             <Box
                                 sx={{
+                                    minWidth:"70px",
                                     marginTop: 0.5,
                                     marginBottom: 0.5
-                                }}>
+                                }}
+                                className="imgLogo">
                                 <img src={IMG} width={80}></img>
                             </Box>
     
@@ -54,15 +56,33 @@ const Navbar = () => {
                                         textDecoration: "none",
                                         display: "inherit",
                                         marginRight: "90px",
-                                        marginLeft: "10px"
+                                        marginLeft: "20px"
                                     }}>
     
                                     БАЗА СТРОИТЕЛЬНЫХ МАТЕРИАЛОВ
     
                                 </Typography>
+                                
     
                             </Box>
-    
+                            <Box className="phoneNumberNavbar" sx={{width:"1px"}}>
+                                <Typography
+                                sx={{
+                                    overflow:"visible",
+                                    position: "absolute",
+                                    fontFamily: "monospace",
+                                    fontWeight: 500,
+                                    letterSpacing: ".2rem",
+                                    color: "#2E3B55",
+                                    textDecoration: "none",
+                                    display: "absolute",
+                                    marginRight: "0px",
+                                    marginLeft: "0px",
+                                    marginTop: "-15px",
+                                }}>
+                                    +7(904)9900992
+                                </Typography>
+                            </Box>
                         </Toolbar>
     
                     </Container>

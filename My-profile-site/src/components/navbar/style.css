@@ -64,3 +64,19 @@
 	width: 100%;
 	background-color: var(--accent);
 }
+
+@media screen and (max-width: 1470px){
+	.phoneNumberNavbar{
+		display: none;
+	}
+}
+@media screen and (max-width: 450px){
+	.imgLogo{
+		display: none;
+		position: absolute;
+	}
+	.textHeader{
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+}

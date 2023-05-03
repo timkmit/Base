@@ -22,9 +22,7 @@
     .gridContent{
         background-color: rgba(255, 255, 255, 0);
       }
-    .textIn{
-        padding-left: 100px;
-    }
+    
 
     .itemsOfUnd{
         display: flex;
@@ -32,7 +30,20 @@
         align-items: center;
         gap: 40px;
     }
+    .textIn{
+        padding-left: 300px;
+    }
+    .gridContent2{
+        
+      }
     
+    .gridContent3{
+        min-width: 250px;
+        max-width: 300px;
+    }
+    .hideModal{
+        display: none;
+    }
     
 }
 
@@ -56,12 +67,20 @@
         padding-left: 70px;
         font-size: 35px;
     }
+    .gridContent3{
+        max-width: 80%;
+        min-width: 250px;
+        max-width: 300px;
+    }
 
     .itemsOfUnd{
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 40px;
+    }
+    .hideModal{
+        display: none;
     }
 
 }
@@ -83,7 +102,22 @@
         background-color: rgba(255, 255, 255, 0);
         display: none;
     }
-      
+    .gridContent3{
+        display: none;
+    }
+    .gridContent4{
+        background-color: rgb(255, 255, 255);
+    }
+    .hideModal {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+      }
+    .hideModalInside{
+        max-width: 300px;
+        min-width: 250px;
+    }
 }
 
 

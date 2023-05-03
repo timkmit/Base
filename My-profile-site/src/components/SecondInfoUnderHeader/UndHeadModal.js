@@ -28,7 +28,7 @@ const InfoUnderHeader2 = () => {
         <Box className="wrapp">
 
 <Grid container spacing={2} columns={16} >
-            <Grid item xs={8} >
+            <Grid item xs={10} >
                 <Item sx={{backgroundColor: 'rgba(0, 0, 0, 0)'}} className="gridContent2">
                 <Box className="gridContent" gap={2}>
                     <Box className="gridItem">
@@ -63,35 +63,36 @@ const InfoUnderHeader2 = () => {
                 </Box>
                 </Item>
             </Grid>
-            <Grid item xs={8} > 
-                <Item sx={{backgroundColor: 'rgba(0, 0, 0, 0)'}} className="gridContent2">
+            <Grid item xs={6}  > 
+                <Item sx={{backgroundColor: 'rgba(0, 0, 0, 0)'}} className="gridContent3">
                 
-                <Grid item xs={6} className='selectWindow'>
+                <Grid item  className='selectWindow' >
                     <Typography>
                         Оставьте заявку!
                     </Typography>
                     <Item><SelectButton/> </Item>
                 </Grid>
-                <Grid item xs={6}>
+                <Grid item >
                     <Item>
-                    <TextField id="outlined-basic" label="Объем" variant="outlined" />
+                    <TextField id="outlined-basic" label="Объем (20кг)" variant="outlined" />
                         </Item>
                 </Grid>
-                <Grid item xs={6}>
+                <Grid item >
                     <Item>
                     <TextField id="outlined-basic" label="Адрес доставки" variant="outlined" />
                     </Item>
                 </Grid>
-                <Grid item xs={6}>
+                <Grid item >
                     <Item>
                     <TextField id="outlined-basic" label="Номер телефона" variant="outlined" />
                     </Item>
                 </Grid>
-                <Grid item xs={6}>
+                <Grid item >
                     <Item>
                     <Button variant="contained" color="success">Заказать звонок</Button>
                     </Item>
                 </Grid>
+                
 {/* 
                 <Box className="itemsOfUnd">
 
@@ -139,7 +140,43 @@ const InfoUnderHeader2 = () => {
                 </Item>
             </Grid>
         </Grid>
-
+            
+            <Grid container >
+            <Box className="hideModal">
+            <Grid item xs={6} className="hideModalInside" > 
+                <Item sx={{backgroundColor: 'rgba(0, 0, 0, 0)'}} className="gridContent4">
+                
+                <Grid item  className='selectWindow' >
+                    <Typography>
+                        Оставьте заявку!
+                    </Typography>
+                    <Item><SelectButton/> </Item>
+                </Grid>
+                <Grid item >
+                    <Item>
+                    <TextField id="outlined-basic" label="Объем (20кг)" variant="outlined" />
+                        </Item>
+                </Grid>
+                <Grid item >
+                    <Item>
+                    <TextField id="outlined-basic" label="Адрес доставки" variant="outlined" />
+                    </Item>
+                </Grid>
+                <Grid item >
+                    <Item>
+                    <TextField id="outlined-basic" label="Номер телефона" variant="outlined" />
+                    </Item>
+                </Grid>
+                <Grid item >
+                    <Item>
+                    <Button variant="contained" color="success">Заказать звонок</Button>
+                    </Item>
+                </Grid>
+                </Item>
+                </Grid>
+                </Box>
+            </Grid>
+            
         </Box>
     );
 }
