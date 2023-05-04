@@ -12,7 +12,7 @@
         background-image: url('./banner.png');
         background-repeat: no-repeat;
         background-position: center;
-        height: 28rem;
+        height: 29rem;
         width: 100%;
         margin-bottom: 2rem;
         justify-content: center;
@@ -53,7 +53,7 @@
         background-image: url('./banner-mini.png');
         background-repeat: no-repeat;
         background-position: center;
-        height: 28rem;
+        height: 29rem;
         width: 100%;
         margin-bottom: 2rem;
         justify-content: center;
@@ -91,13 +91,14 @@
         background-image: url('./banner-phone.png');
         background-repeat: no-repeat;
         background-position: center;
-        height: 28rem;
+        height: 29rem;
         width: 100%;
         margin-bottom: 2rem;
         justify-content: center;
         align-items: center;
         text-align: center;
     }
+    
     .gridContent2{
         background-color: rgba(255, 255, 255, 0);
         display: none;
@@ -117,6 +118,7 @@
     .hideModalInside{
         max-width: 300px;
         min-width: 250px;
+        
     }
 }
 

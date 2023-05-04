@@ -1,4 +1,4 @@
-import './style.css'
+import './style2.css'
 import {Box, Typography} from '@mui/material';
 import {styled} from '@mui/material/styles';
 import {Grid} from '@mui/material';
@@ -143,35 +143,39 @@ const InfoUnderHeader2 = () => {
             
             <Grid container >
             <Box className="hideModal">
-            <Grid item xs={6} className="hideModalInside" > 
-                <Item sx={{backgroundColor: 'rgba(0, 0, 0, 0)'}} className="gridContent4">
-                
-                <Grid item  className='selectWindow' >
-                    <Typography>
-                        Оставьте заявку!
-                    </Typography>
-                    <Item><SelectButton/> </Item>
-                </Grid>
-                <Grid item >
-                    <Item>
-                    <TextField id="outlined-basic" label="Объем (20кг)" variant="outlined" />
-                        </Item>
-                </Grid>
-                <Grid item >
-                    <Item>
-                    <TextField id="outlined-basic" label="Адрес доставки" variant="outlined" />
-                    </Item>
-                </Grid>
-                <Grid item >
-                    <Item>
-                    <TextField id="outlined-basic" label="Номер телефона" variant="outlined" />
-                    </Item>
-                </Grid>
-                <Grid item >
-                    <Item>
-                    <Button variant="contained" color="success">Заказать звонок</Button>
-                    </Item>
-                </Grid>
+            <Grid item xs={10} className="hideModalInside" > 
+            <Item sx={{backgroundColor: 'rgba(0, 0, 0, 0)'}} className="HgridContent2">
+                <Box className="HgridContent" gap={2}>
+                    <Box className="HgridItem">
+                        <Typography
+                            paddingTop={5}
+                            variant="h4"
+                            sx={{
+                                fontWeight: 300,
+                                color: "#2E3B55",
+                                textAlign: "left"
+                            }}
+                            className='HtextIn'>
+                            Щебень и нерудные строительные материалы с доставкой
+                        </Typography>
+                    </Box>
+                    <Box className="HgridItem">
+                        <Typography
+                            paddingTop={3}
+                            paddingBottom={5}
+                            variant="h5"
+                            sx={{
+                                fontWeight: 300,
+                                color: "#2E3B55",
+                                textAlign: "left",
+                                
+                            }}
+                            className='HtextIn'>
+                            по Павловскому округу
+                        </Typography>
+                    </Box>
+
+                </Box>
                 </Item>
                 </Grid>
                 </Box>
