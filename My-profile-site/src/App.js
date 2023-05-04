@@ -30,6 +30,7 @@ function App() {
             <Route path="/documents" element={<Documents/>}/>
           </Routes>
           <Advantage/>
+          {/*TODO: карту, адрес подробный, преимущества */}
         <Footer />
       </Router>
 
