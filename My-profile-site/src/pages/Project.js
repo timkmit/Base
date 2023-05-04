@@ -1,6 +1,4 @@
 import { useParams } from "react-router-dom";
-
-import BtnGitHub from "../components/btnGitHub/BtnGitHub";
 import axios from 'axios';
 import { useState, useEffect } from 'react';
 
@@ -38,12 +36,11 @@ const Project = () => {
           />
 
           <div className="project-details__desc">
-            <p>Skills: {project.skills}</p>
             <p>{project.descriptions}</p>
             <p>Price: {project.price} rub</p>
           </div>
 
-          {project.gitHubLink && <BtnGitHub link={project.gitHubLink} />}
+          
         </div>
       </div>
     </main>
