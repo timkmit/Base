@@ -3,7 +3,7 @@ import "./style.css"
 const Footer = () => {
     return ( 
         <div className="footer">
-      <p>&copy; 2023 База строительных материалов. Все права защищены.</p>
+      <p>&copy; 2023 База строительных материалов.</p>
       <p>Связаться с нами: timengalytchev@mail.ru</p>
       <p>Следите за нами в соцсетях:</p>
       <div className="social-icons">

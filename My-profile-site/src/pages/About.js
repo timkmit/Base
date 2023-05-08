@@ -7,6 +7,7 @@ import {TextField} from '@mui/material';
 import Button from '@mui/material/Button';
 import '../components/SecondInfoUnderHeader/style2.css'
 import AboutStr from '../components/strUnderHeader/AboutStr';
+import Mapp from '../components/map/Map';
 
 export default function About() {
   const Item = styled(Paper)(({theme}) => ({
@@ -133,8 +134,27 @@ export default function About() {
         </Grid>
         
       </Grid>
+      <Typography className='hideText' sx={{fontWeight: '700', fontSize: '27px'}}>
+      Мы - база строительных материалов, которая занимается продажей и доставкой сыпучих материалов по Павловскому округу. 
+Мы являемся официальными дилерами Ленинградского кирпичного завода, что позволяет нам гарантировать своим клиентам самые выгодные цены и самое высокое качество кирпича.
+</Typography>
+<Typography className='hideText' sx={{ fontSize: '27px'}}>
+Наша команда гордится тем, что мы не только предоставляем качественные строительные материалы, но и обеспечиваем быструю доставку в течение всего часа.
+</Typography>
+
+
+<Typography className='hideText' sx={{ fontSize: '27px'}}>
+Наш коллектив - дружный и профессиональный. Мы стремимся предоставлять своим клиентам наилучший сервис и всегда готовы помочь с выбором материалов для любых строительных проектов.
+</Typography>
+
+<Typography className='hideText' sx={{ fontSize: '27px'}}>
+Наша компания работает в области строительных материалов с 2013 года, что говорит о нашем богатом опыте и надежности в этой сфере. Если вы ищете надежного поставщика строительных материалов в Павловском округе, обращайтесь к нам. Мы будем рады помочь вам воплотить в жизнь любые строительные и ремонтные задумки.
+</Typography>
+
+      
       
     </Box>
+    <Mapp/>
     </>
     
   )

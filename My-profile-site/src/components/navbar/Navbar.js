@@ -80,7 +80,7 @@ const Navbar = () => {
                                     marginLeft: "0px",
                                     marginTop: "-15px",
                                 }}>
-                                    +7(904)9900992
+                                    +7(918)4722246  
                                 </Typography>
                             </Box>
                         </Toolbar>

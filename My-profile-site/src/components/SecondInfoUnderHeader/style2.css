@@ -55,6 +55,9 @@
     .hideModal{
         display: none;
     }
+    .hideText{
+        display: none;
+    }
     
 }
 
@@ -104,6 +107,9 @@
     .hideModal{
         display: none;
     }
+    .hideText{
+        display: none;
+    }
 
 }
 
@@ -128,9 +134,7 @@
         text-align: center;
     }
     .textIn2{
-        padding-left: 30px;
-        font-size: 35px;
-        text-align: center!important;
+        display: none;
     }
     
     .gridContent2{
