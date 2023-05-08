@@ -1,0 +1,74 @@
+@media screen and (min-width: 1650px) {
+    .wrap2{
+        padding-top: 40px;
+        background-image: url('./imgUndereader/banner.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 20rem;
+        width: 100%;
+        margin-bottom: 2rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .spanText{
+        padding-top: 200px;
+        font-size: 50px;
+        font-weight: 600;
+       }
+    .textStr{
+        padding-top: 100px;
+    }
+    
+}
+
+@media screen and (max-width: 1650px) and (min-width: 800px) {
+    .wrap2{
+        padding-top: 40px;
+        background-image: url('./imgUndereader/banner-mini.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 20rem;
+        width: 100%;
+        margin-bottom: 2rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .spanText{
+        padding-top: 200px;
+        font-size: 50px;
+        font-weight: 600;
+       }
+    .textStr{
+        padding-top: 100px;
+    }
+   
+}
+
+@media screen and (max-width: 800px) {
+    .wrap2{
+        padding-top: 40px;
+        background-image: url('./imgUndereader/banner-phone.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 20rem;
+        width: 100%;
+        margin-bottom: 2rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .spanText{
+        padding-top: 200px;
+        font-size: 30px;
+        font-weight: 600;
+       }
+    .textStr{
+        padding-top: 100px;
+    }
+
+}
+
+
+

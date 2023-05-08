@@ -19,6 +19,14 @@
         align-items: center;
         text-align: center;
     }
+    .wrapp2{
+        
+        width: 100%;
+        margin-bottom: 2rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
     .gridContent{
         background-color: rgba(255, 255, 255, 0);
       }
@@ -31,6 +39,9 @@
         gap: 40px;
     }
     .textIn{
+        padding-left: 300px;
+    }
+    .textIn2{
         padding-left: 300px;
     }
     .gridContent2{
@@ -60,10 +71,21 @@
         align-items: center;
         text-align: center;
     }
+    .wrapp2{
+        width: 100%;
+        margin-bottom: 2rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
     .gridContent{
       background-color: rgba(255, 255, 255, 0);
     }
     .textIn{
+        padding-left: 70px;
+        font-size: 35px;
+    }
+    .textIn2{
         padding-left: 70px;
         font-size: 35px;
     }
@@ -98,6 +120,18 @@
         align-items: center;
         text-align: center;
     }
+    .wrapp{
+        width: 100%;
+        margin-bottom: 2rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .textIn2{
+        padding-left: 30px;
+        font-size: 35px;
+        text-align: center!important;
+    }
     
     .gridContent2{
         background-color: rgba(255, 255, 255, 0);
@@ -109,6 +143,7 @@
     .gridContent4{
         background-color: rgb(255, 255, 255);
     }
+    
     .hideModal {
         display: flex;
         justify-content: center;

@@ -11,8 +11,9 @@ export default function CombinedRender() {
     <>
     <InfoUnderHeader2/>
     <Projects/>
-    <Advantage/>
     <Mapp/>
+    <Advantage/>
+    
     
     </>
   )

@@ -64,11 +64,17 @@ const Advantage = () => {
                 </Item>
             </Grid>
             <Grid item xs={6}  > 
-                <Item sx={{backgroundColor: 'rgba(0, 0, 0, 0)'}} className="AgridContent3">
+                <Item sx={{backgroundColor: 'rgba(0, 0, 0, 0.15)'}} className="AgridContent3">
                 
                 <Grid item  className='AselectWindow' >
-                    <Typography >
-                        Оставьте заявку!
+                    <Typography 
+                    sx={{
+                        fontWeight: "700",
+                        color: "#fff",
+                        
+                        
+                    }}>
+                        Мы свяжемся с Вами!
                     </Typography>
                     <Item><SelectButton/> </Item>
                 </Grid>

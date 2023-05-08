@@ -76,7 +76,9 @@
 		position: absolute;
 	}
 	.textHeader{
-		margin-left: 0px;
+		margin-left: 50px!important;
 		margin-right: 0px;
+		text-align: center;
+		line-height: normal!important;
 	}
 }

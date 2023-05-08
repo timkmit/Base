@@ -36,6 +36,7 @@ const UnderHeader = () => {
 
         <Link className="pagesLink" to="/documents">
             <Button
+            className="pagesText"
                 sx={{
                     my: 0.1,
                     color: "#2E3B55",
@@ -49,6 +50,7 @@ const UnderHeader = () => {
 
         <Link className="pagesLink" to="/about">
             <Button
+            className="pagesText"
                 sx={{
                     my: 0.1,
                     color: "#2E3B55",
