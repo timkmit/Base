@@ -4,6 +4,7 @@ import Projects from '../pages/Projects'
 import InfoUnderHeader from './InfoUnderHeader'
 import InfoUnderHeader2 from '../components/SecondInfoUnderHeader/UndHeadModal'
 import Advantage from '../components/Advantages/Advantage'
+import Mapp from '../components/map/Map'
 
 export default function CombinedRender() {
   return (
@@ -11,6 +12,7 @@ export default function CombinedRender() {
     <InfoUnderHeader2/>
     <Projects/>
     <Advantage/>
+    <Mapp/>
     
     </>
   )
