@@ -92,49 +92,6 @@ const InfoUnderHeader2 = () => {
                     <Button variant="contained" color="success">Заказать звонок</Button>
                     </Item>
                 </Grid>
-                
-{/* 
-                <Box className="itemsOfUnd">
-
-
-                    
-                    <Box className="itemHeader">
-                        <Card.Img className='cardImg2' variant="top" src={card}/>
-                        <Typography
-                            variant="h5"
-                            sx={{
-                                fontWeight: 500,
-                                color: "#2E3B55"
-                            }}>
-                            Приятные цены
-                        </Typography>
-                    </Box>
-
-                    <Box className="itemHeader">
-                        <Card.Img className='cardImg2' variant="top" src={delivery}/>
-                        <Typography
-                            variant="h5"
-                            sx={{
-                                fontWeight: 500,
-                                color: "#2E3B55"
-                            }}>
-                            Быстрая доставка
-                        </Typography>
-                    </Box>
-
-                    <Box className="itemHeader">
-                        <Card.Img className='cardImg2' variant="top" src={cal}/>
-                        <Typography
-                            variant="h5"
-                            sx={{
-                                fontWeight: 500,
-                                color: "#2E3B55"
-                            }}>
-                            Универсальный график
-                        </Typography>
-                    </Box> 
-
-                </Box>*/}
 
             
                 </Item>

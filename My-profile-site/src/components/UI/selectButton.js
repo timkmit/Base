@@ -9,7 +9,7 @@ export default function SelectButton() {
       id="combo-box-demo"
       options={material}
       
-      renderInput={(params) => <TextField {...params} label="material" />}
+      renderInput={(params) => <TextField {...params} label="Материал" />}
     />
   );
 }
