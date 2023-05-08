@@ -22,14 +22,13 @@ function App() {
           <UnderHeader/>
           <Routes>
             <Route path="/" element={<CombinedRender/>}/>
-            
             <Route path="/project/:id" element={<Project />} />
             <Route path="/categories" element={<Categories/>}/>
             <Route path="/category/:id" element={<Category/>}/>
             <Route path="/about" element={<About/>}/>
             <Route path="/documents" element={<Documents/>}/>
           </Routes>
-          <Advantage/>
+          
           {/*TODO: карту, адрес подробный, преимущества */}
         <Footer />
       </Router>
