@@ -56,7 +56,7 @@ const InfoUnderHeader2 = () => {
                                 
                             }}
                             className='textIn'>
-                            по Павловскому округу
+                            по Павловскому району
                         </Typography>
                     </Box>
 
@@ -128,7 +128,7 @@ const InfoUnderHeader2 = () => {
                                 
                             }}
                             className='HtextIn'>
-                            по Павловскому округу
+                            по Павловскому району
                         </Typography>
                     </Box>
 
