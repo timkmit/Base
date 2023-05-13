@@ -2,6 +2,9 @@ import { useParams } from "react-router-dom";
 import { useState, useEffect } from 'react';
 import {Grid} from '@mui/material';
 import axios from 'axios';
+import Mapp from "../components/map/Map";
+import Advantage from "../components/Advantages/Advantage";
+
 
 
 const Category = () => {
@@ -26,6 +29,8 @@ const Category = () => {
   }
 
   return (
+
+    <>
     <Grid container spacing={1} columns={16} className="gridProject">
     <Grid item xs={6}  className="gridImg">
     <img
@@ -43,10 +48,6 @@ const Category = () => {
     </div>
     
     </Grid>
-
-
-
-
 
     <Grid item xs={15} className="gridTextTel">
     <h1 className="titleeTel">{project.title}</h1>
@@ -67,6 +68,11 @@ const Category = () => {
     </div>
     </Grid>
     </Grid>
+    <Mapp/>
+    <Advantage/>
+    </>
+    
+
   );
 };
 

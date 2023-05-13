@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import {Grid} from '@mui/material';
 import axios from 'axios';
 import '../components/project/style.css'
+import Mapp from "../components/map/Map";
 
 
 const Project = () => {
@@ -72,7 +73,7 @@ const Project = () => {
     </div>
     </Grid>
     </Grid>
-    
+    <Mapp/>
     
 
     

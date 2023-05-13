@@ -12,6 +12,7 @@ import About from "./pages/About";
 import Documents from "./pages/Documents";
 import Category from "./pages/Category";
 
+
 function App() {
   
   return (
@@ -29,7 +30,6 @@ function App() {
             <Route path="/documents" element={<Documents/>}/>
           </Routes>
           
-          {/*Оформить дизайн карточки и категории, добавить снизу них окно */}
         <Footer />
       </Router>
 
