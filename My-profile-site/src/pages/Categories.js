@@ -2,6 +2,7 @@ import React from 'react'
 import axios from 'axios';
 import { useState, useEffect } from 'react';
 import ProjectCategory from '../components/project/ProjectCategory';
+import CatStr from '../components/strUnderHeader/CatStr';
 
 export default function Categories() {
   const [projects, setProjects] = useState([]);
@@ -19,9 +20,10 @@ export default function Categories() {
 
   return (
     <>
+    <CatStr/>
       <main className="section">
       <div className="container">
-        <h2 className="title-2">Категории товаров</h2>
+        
         <ul className="projects">
           {projects.map((project, index) => {
             return (

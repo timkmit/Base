@@ -14,6 +14,7 @@ import Category from "./pages/Category";
 import Advantage from "./components/Advantages/Advantage";
 
 function App() {
+  
   return (
     <div className="App">
       <Router>
