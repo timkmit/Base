@@ -1,5 +1,5 @@
 .project {
-	max-width: 370px;
+	max-width: 300px;
 	background-color: var(--project-card-bg);
 	box-shadow: var(--box-shadow);
 	border-radius: 10px;
@@ -15,4 +15,72 @@
 	font-size: 24px;
 	line-height: 1.3;
 	color: var(--project-card-text);
+}
+
+.titlee{
+	padding-bottom: 1.5rem;
+	font-weight: 700;
+	font-size: 2.75rem;
+	
+}
+.titleeTel{
+
+	text-align: left;
+	padding-left: 1rem;
+	padding-bottom: 0.5rem;
+	font-weight: 500;
+	font-size: 2.5rem;
+	
+}
+
+.projectt1{
+	width: 500px;
+	
+}
+
+.projectt2{
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	font-size: 1.5rem;
+	
+}
+.projectt2Tel{
+	padding: 2rem;
+	font-size: 1.5rem;
+	
+}
+.gridProject{
+	padding-bottom: 23rem;
+}
+.projectt2{
+	width: 80%;
+	text-align: left;
+}
+.projectt3{
+
+	text-align: left;
+	font-size: 2rem;
+}
+
+.titlee{
+	text-align: left;
+	width: 60%;
+}
+
+@media screen and (max-width: 579px) {
+	.gridText{
+		display: none;
+	}
+	.gridImg{
+		display: none;
+	}
+	
+}
+@media screen and (min-width: 580px) {
+	.gridTextTel{
+		display: none;
+	}
+	.gridImgTel{
+		display: none;
+	}
 }

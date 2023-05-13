@@ -1,8 +1,8 @@
 import { useParams } from "react-router-dom";
-
-import BtnGitHub from "../components/btnGitHub/BtnGitHub";
-import axios from 'axios';
 import { useState, useEffect } from 'react';
+import {Grid} from '@mui/material';
+import axios from 'axios';
+
 
 const Category = () => {
   const [projects, setProjects] = useState([]);
@@ -26,27 +26,47 @@ const Category = () => {
   }
 
   return (
-    <main className="section">
-      <div className="container">
-        <div className="project-details">
-          <h1 className="title-1">{project.title}</h1>
+    <Grid container spacing={1} columns={16} className="gridProject">
+    <Grid item xs={6}  className="gridImg">
+    <img
+      src={project.photo}
+      alt={project.title}
+      className="projectt1"
+    />
+    
+    </Grid>
+    <Grid item xs={8} className="gridText">
+    <h1 className="titlee">{project.title}</h1>
+    <div className="projectt2">
+      <p>{project.descriptions}</p>
+      
+    </div>
+    
+    </Grid>
 
-          <img
-            src={project.photo}
-            alt={project.title}
-            className="project-details__cover"
-          />
 
-          <div className="project-details__desc">
-            <p>Skills: {project.skills}</p>
-            <p>{project.descriptions}</p>
-            <p>Price: {project.price} rub</p>
-          </div>
 
-          {project.gitHubLink && <BtnGitHub link={project.gitHubLink} />}
-        </div>
-      </div>
-    </main>
+
+
+    <Grid item xs={15} className="gridTextTel">
+    <h1 className="titleeTel">{project.title}</h1>
+    
+    </Grid>
+    <Grid item xs={16}  className="gridImgTel">
+    <img
+      src={project.photo}
+      alt={project.title}
+      className="projectt1Tel"
+    />
+    
+    </Grid>
+    <Grid item xs={16} className="gridTextTel">
+    <div className="projectt2Tel">
+      <p>{project.descriptions}</p>
+      <p>Price: {project.price} rub</p>
+    </div>
+    </Grid>
+    </Grid>
   );
 };
 

@@ -11,7 +11,6 @@ import Categories from "./pages/Categories";
 import About from "./pages/About";
 import Documents from "./pages/Documents";
 import Category from "./pages/Category";
-import Advantage from "./components/Advantages/Advantage";
 
 function App() {
   
@@ -30,7 +29,7 @@ function App() {
             <Route path="/documents" element={<Documents/>}/>
           </Routes>
           
-          {/*TODO: карту, адрес подробный, преимущества */}
+          {/*Оформить дизайн карточки и категории, добавить снизу них окно */}
         <Footer />
       </Router>
 

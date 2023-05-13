@@ -6,7 +6,7 @@ export default function CatStr() {
     <div className='wrap2'>
         <div className='textStr'>
             <span className='spanText'>
-                Категории
+                КАТЕГОРИИ
             </span>
             <p></p>
             <span className='spanText2'>
